@@ -27,7 +27,9 @@ Claude Code を活用したソフトウェア開発では、コードの品質�
 
 ## 使い方
 
-対象プロジェクトの `.prompts/SKILLS/` ディレクトリに、必要なスキルファイルを配置してください。Claude Code はタスク実行時にこれらのファイルを参照し、記載された規約に従って作業します。
+1. 対象プロジェクトの `.prompts/SKILLS/` に、必要なスキルファイルをコピーし、`.prompts/` に `INIT.md` をコピーします。
+2. `git init` コマンドを入力後、`.git/info/exclude` の中身を `exclude` で置き換えます。
+3. Claude Code に `.prompts/INIT.md` の内容を実行するよう依頼します。
 
 ## ライセンス
 
@@ -37,4 +39,5 @@ MIT License。詳細は [LICENSE](LICENSE) を参照してください。
 
 | バージョン | 日付 | 内容 |
 |---|---|---|
+| v0.1.1 | 2026-02-23 | 使い方の手順を具体化 |
 | v0.1.0 | 2026-02-23 | 初版。PROJECT-SKILL、TEST-SKILL、DOC-SKILL を作成 |
