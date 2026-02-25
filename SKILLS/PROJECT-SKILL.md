@@ -12,6 +12,7 @@
   - パイプの代わりに一時ファイル (`.tmp` 配下) へリダイレクトし、結果は Read ツールで読む。
     - 悪い例: `npx vitest run --coverage 2>/dev/null | tail -60` 
     - 良い例: `npx vitest run --coverage 2>/dev/null > .tmp/cov.txt` → `tail -60 .tmp/cov.txt`
+- git -C コマンドを使わず、cd で対応してください。
 - .prompts/INSPECTIONS 配下の .sarif.json の分析のために、まず .prompts/INSPECTIONS/extract.py を作成し、必要な部分だけを抽出するようにしてください。
 - README にはプロジェクトの目的、背景情報、内容物、使い方などを網羅的に記載し、初見の人が全貌を把握し滞りなくタスクを進められるようにしてください。 README の末尾にはバージョンごとの更新情報を記載してください。
   
