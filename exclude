@@ -3,5 +3,6 @@
 .idea
 .vscode
 .tmp
+.logs
 .claude
 CLAUDE.md
