@@ -60,6 +60,7 @@ MIT License。詳細は [LICENSE](LICENSE) を参照してください。
 
 | バージョン | 日付 | 内容 |
 |---|---|---|
+| v2.0.1 | 2026-03-03 | `.prompts/INIT.md` を追加。`.prompts/` を Git 追跡対象に変更 |
 | v2.0.0 | 2026-03-03 | `.claude/rules/` 方式に移行。`SKILLS/` と `INIT.md` を廃止し `rules/` に統合。リポジトリ名を `my-claude-code-rules` に変更 |
 | v1.0.0 | 2026-02-25 | 初の安定版。`git -C` コマンドの禁止ルールを追加 |
 | v0.1.1 | 2026-02-23 | 使い方の手順を具体化 |
